@@ -10,5 +10,11 @@ Fuelish Choices is a user-friendly Streamlit app that helps you make informed de
 
 ## Usage
 
-1. Install the required packages using
+1. Install the required packages using <br>
 ```pip install -r requirements.txt```
+2. Run the app using the following command:<br>
+```streamlit run app.py```
+3. Fuel away!
+
+
+Built with ❤️ by [Suvrat Jain](https://github.com/simplysuvi).
