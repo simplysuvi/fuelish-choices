@@ -21,7 +21,7 @@ states = state_data["result"]
 # Create the Streamlit web app
 st.set_page_config(page_title="Fuelish Choices: Gas Price & Consumption Calculator", page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.title("Gas Price Calculator")
-st.header("Select a State and City")
+st.header("Fuel Prices")
 
 # Select a state
 selected_state = st.selectbox("Select a state:", [state["name"] for state in states])
@@ -59,7 +59,7 @@ if state_code:
                 break
 
     # Fuel Consumption Calculation based on distance and fuel efficiency
-    st.header("Calculate Fuel Consumption")
+    st.header("Fuel Consumption Calculator")
     distance_miles = st.number_input("Enter the distance in miles:", min_value=0.0, value=0.0, step=1.0)
     fuel_efficiency = st.number_input("Enter fuel efficiency in miles per gallon (MPG):", min_value=0.0, value=20.0, step=1.0)
 
@@ -74,7 +74,7 @@ if state_code:
             fuel_amount = distance_miles / fuel_efficiency
             fuel_cost = fuel_amount * float(selected_fuel_price)
 
-            st.subheader("Fuel Consumption Details")
+            st.subheader("Fuel Consumption Details:")
             st.write(f"Distance: {distance_miles} miles")
             st.write(f"Fuel Efficiency: {fuel_efficiency} miles per gallon")
             st.write(f"Fuel Price: ${selected_fuel_price} per gallon")
