@@ -1,2 +1,14 @@
-# fuelish-choices
-Fuelish Choices: A simple Streamlit-powered app that allows users to calculate fuel consumption based on trip distance and fuel efficiency, while providing real-time gas prices for states and cities across the US.
+# Fuelish Choices
+
+Fuelish Choices is a user-friendly Streamlit app that helps you make informed decisions about fuel consumption, gas prices, and road trip costs. Whether you're comparing gas prices in different cities or calculating the fuel needed for your next adventure, Fuelish Choices has got you covered.
+
+## Features
+
+- Explore gas prices in various states and cities across the US.
+- Calculate fuel costs for road trips based on distance and fuel efficiency.
+- Make fuel-wise decisions with the latest gas price information.
+
+## Usage
+
+1. Install the required packages using
+```pip install -r requirements.txt```
