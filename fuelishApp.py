@@ -19,6 +19,7 @@ state_data = json.loads(state_data)
 states = state_data["result"]
 
 # Create the Streamlit web app
+st.set_page_config(page_title="Fuelish Choices: Gas Price & Consumption Calculator", page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.title("Gas Price Calculator")
 st.header("Select a State and City")
 
