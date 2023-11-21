@@ -12,8 +12,8 @@ headers = {
 # Make the API request to get state codes
 conn.request("GET", "/gasPrice/usaStateCode", headers=headers)
 res = conn.getresponse()
-st.write(res)
 state_data = res.read()
+st.write(state_data)
 state_data = json.loads(state_data)
 
 # Extract the list of states
