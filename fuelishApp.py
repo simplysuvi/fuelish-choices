@@ -6,7 +6,7 @@ import json
 conn = http.client.HTTPSConnection("api.collectapi.com")
 headers = {
     'content-type': "application/json",
-    'authorization': "apikey 2UAd7wewYfEGYFFsnRBvN7:75rYVYNWqAgQqIgEVroiB9"
+    'authorization': "apikey 3zQ7zM6OLu7S9pbo4GoKLd:0ZWmboXkuFxMeZlIPUAu8n"
     }
 
 # Make the API request to get state codes
